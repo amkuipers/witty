@@ -53,15 +53,7 @@ Using the NodeMCU 1.0 board, there is no need to use the flash or reset buttons 
 ## Hardware
 
 
-### Bottom PCB (programmer)
-
- * USB for power + data
- * Reset button
- * Flash button
-
-Note: When selecting NodeMCU 1.0 as target in the Arduino IDE, there was no need to use the Flash or Reset button.
-
-Witty pinout (6 ESP pins not exposed)
+### Witty pinout (6 ESP pins not exposed)
 
     REST         |       TXD
     ADC    LDR   |       RXD
@@ -72,7 +64,14 @@ Witty pinout (6 ESP pins not exposed)
     GPIO13 RGB-B | RGB-R GPIO15
     VCC          |       GND
                 USB
+			
+### Bottom PCB (programmer)
 
+ * USB for power + data
+ * Reset button
+ * Flash button
+
+Note: When selecting NodeMCU 1.0 as target in the Arduino IDE, there was no need to use the Flash or Reset button.
 
 ## Top PCB (ESP8266)
 
@@ -83,4 +82,3 @@ Witty pinout (6 ESP pins not exposed)
 
  * Unused ESP GPIO pins
  
-
